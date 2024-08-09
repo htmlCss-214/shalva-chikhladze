@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    width: 960px;
+}
+
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+}
+
+nav a{
+    font-size: 24px;
+    font-family: Roboto, sans-serif;
+    line-height: 28px;
+    text-decoration: none;
+    color: black;
+}
+
+.scheduleLine{
+    height: 5px;
+    width: 100px;
+    background-color: black;
+}
+
+.classesLine{
+    height: 5px;
+    width: 192px;
+    background-color: black;
+}
+
+
+.addressesLine{
+    height: 5px;
+    width: 167px;
+    background-color: black;
+}
+
+
+.bouldering{
+    text-align: center;
+    margin-top: 75px;
+    font-size: 64px;
+    font-family: Roboto, sans-serif;
+    margin-right: 70px;
+}
+
+
+.dot1{
+    background-color: black;
+    width:10px;
+    height: 10px;
+    border-radius: 50px;
+    margin: 8px;
+    margin-left: 30px;
+}
+
+
+#img1{
+    width: 200px;
+    height: 150px;
+    margin-right: 90px;
+}
+
+#img2{
+    width: 225px;
+    height: 150px;
+}
+
+#img3{
+    width: 100px;
+    height: 150px;
+}
+
+
+.p-div{
+    font-size: 24px;
+    font-family: Roboto, sans-serif;
+    width: 840px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 30px;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+
+
+.email, .phone{
+    display: flex;
+    width: 940px;
+    height: 40px;
+    border: 10px solid black;
+    font-size: 24px;
+    font-family: Roboto, sans-serif;
+}
+

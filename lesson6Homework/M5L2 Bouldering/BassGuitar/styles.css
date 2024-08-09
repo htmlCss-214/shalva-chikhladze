@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+
+body{
+    background-color: rgb(155, 145, 145);
+    margin: 0;
+}
+
+
+.topnav{
+    overflow: hidden;
+    background-color: #333;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.topnav a{
+    font-size: 24px;
+    font-family: sans-serif;
+    text-align: center;
+    text-decoration: none;
+    color: #f9f9f9;
+    padding: 14px 16px;
+    margin: 100px;
+}
+
+.topnav a:hover{
+    cursor: pointer;
+    background-color: #ddd;
+    color: black;
+    transition: 0.4s;
+}
+
+
+.img-div{
+    width: 300px;
+    height: 200px;
+    transition: transform .2s;
+    padding-left: 110px;
+}
+
+.img-div:hover{
+    cursor: pointer;
+    transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+}
+
+
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+
+.sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+}
+   
+.sidebar a.active {
+    background-color: #327a60;
+    color: white;
+}
+
+.sidebar a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+p{
+    font-size: 20px;
+    font-family: Roboto, sans-serif;
+    margin-left: 40px;
+}
+
+th{
+    background-color: green;
+    text-align: center;
+    font-size: 18px;
+    padding: 10px;
+}
+
+.cellType1{
+    background-color: white;
+    text-align: center;
+}
+
+.cellType2{
+    background-color: gray;
+    text-align: center;
+}
+
+.cellType:hover{
+    cursor: pointer;
+    background-color: rgb(60, 159, 60);
+}
+
+table{
+    border-collapse: collapse;
+    width: 600px;
+    height: 200px;
+}
+
+#Website-Rate{
+    margin-left: 45%;
+}
