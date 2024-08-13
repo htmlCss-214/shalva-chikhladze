@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+body{
+    background-color: antiquewhite;
+    margin: 0;
+}
+
+.top-nav{
+    top:0;
+    overflow: hidden;
+    background-color: #000000;
+    line-height: 2em;
+    width: 100%;
+    padding: 10px;
+}
+
+.top-nav a{
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    text-decoration: none;
+    text-align: center;
+    padding: 10px 68px;
+    color: white;
+}
+
+.top-nav a:hover{
+    cursor: pointer;
+    background-color: white;
+    border-radius: 15px;
+    transition: 0.5s;
+    color: black;
+}
+
+.nurburg{
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    left: 470px;
+    text-shadow: 3px 2px 8px;
+}
+
+h2{
+    text-align: center;
+    text-decoration: underline;
+    text-shadow: 10px 10px 7px rgb(94, 0, 0);
+}
+
+
+.img1{
+    position: absolute;
+    left: 890px;
+    top: 200px;
+}
+
+.img1:hover{
+    cursor: pointer;
+    transition: 0.4s;
+    transform: scale(0.3s);
+    -ms-transform: scale(0.5s);
+    -webkit-transform: scale(1.2);
+}
+
+.tab-clas{
+    position: absolute;
+    text-align: center;
+    left:470px;
+    top: 650px;
+    border: 1px solid black;
+    border-radius: 5px;
+    border-collapse: collapse;
+    width: 350px;
+    height: 150px;
+    box-shadow: 5px 5px 6px rgb(234, 135, 135);
+}
+
+.celltype1{
+    background-color: green;
+}
+
+.celltype1:hover{
+    cursor: pointer;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.celltype2:hover{
+    cursor: pointer;
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+
+
+.climate{
+    position: absolute;
+    text-decoration: underline;
+    text-shadow: 10px 10px 7px rgb(94, 0, 0);
+    top: 830px;
+    left: 590px;
+}
+
+
+.sec-p{
+    font-family: Roboto, sans-serif;
+    font-size: 20px;
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    left: 470px;
+    text-shadow: 3px 2px 8px;
+    top: 910px;
+}
+
+
+.img2{
+    position: absolute;
+    left: 890px;
+    top: 1030px;
+}
+
+.img2:hover{
+    cursor: pointer;
+    transition: 0.4s;
+    transform: scale(0.3s);
+    -ms-transform: scale(0.5s);
+    -webkit-transform: scale(1.2);
+}
+
+.tab1-clas{
+    position: absolute;
+    left: 30%;
+    top: 1550px;
+    text-align: center;
+    width: 550px;
+    height: 150px;
+    border: 1px solid blue;
+    box-shadow: 5px 5px 6px rgb(234, 135, 135);
+}
+
+.celtype1{
+    background-color: white;
+    color: green;
+}
+
+.celtype2{
+    background-color: yellowgreen;
+    color: black;
+}
+
+
+#email{
+    width: 400px;
+    height: 30px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Roboto, sans-serif;
+    position: absolute;
+    left: 450px;
+    bottom: 100px;
+}
+
+.sub{
+    position: absolute;
+    font-size: 17px;
+    left: 45%;
+    bottom: 15%;
+    border: 1px solid black;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: rgb(73, 69, 69);
+    color: white;
+    border-color: white;
+}
+
+.sub:hover{
+    cursor: pointer;
+    transition: 0.4s;
+    background-color: antiquewhite;
+    box-shadow: 5px 5px 6px red;
+    color: black;
+}
+
+.ffad{
+    color: white;
+    letter-spacing: 1px;
+}
