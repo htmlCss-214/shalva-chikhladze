@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital@1&display=swap');
+
+
+body{
+    margin: 0;
+    background-color: antiquewhite;
+    width: 100%;
+    font-family: Poppins;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 50px;
+    background-color: rgb(114, 152, 233);   
+}
+
+.grid-item{
+    border: 1px solid black;
+}
+
+a{
+    font-size: 23px;
+    font-family: Roboto, sans-serif;
+    text-decoration: none;
+    margin: 200px;
+    color: white;
+    text-shadow: 5px 5px 6px rgb(7, 4, 9);
+}
+
+a:hover{
+    cursor: pointer;
+    text-shadow: 5px -5px 6px rgb(0, 234, 255);
+}
+
+.italy{
+    text-align: center;
+    text-shadow: -5px 0 6px rgb(75, 62, 62);
+}
+
+
+.grid-container1{
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    grid-template-rows: 50vh;
+}
+
+
+
+.grid-container2{
+    display: grid;
+    grid-template-columns: 33% 33% 34%;
+    grid-template-rows: 15vh;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+.grid-container3{
+    display: grid;
+    grid-template-columns: 75vh;
+    grid-template-rows: 60vh;
+    text-align: center;
+    max-width: fit-content;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.grid-container4{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 40vh;
+    margin-bottom: 30px;    
+}
+
+
+.grid-area-container6{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows:10vh 30vh 10vh;
+}
+  
+.grid-container7{
+    display: grid;
+    grid-template-rows: 100%;
+    grid-template-columns: 18% 18% 18% 18% 28%;
+}
+  
+
+.img1{
+    border-radius: 15%;
+    box-shadow: 5px 5px 5px blue;
+}
+
+.img1:hover{
+    cursor: pointer;
+    width: 500px;
+    transition: 2s;
+    box-shadow: 30px 10px 5px;
+}
+
+
+.move-text{
+    animation-duration: 2s;
+    animation-name: slide;
+    font-size: 15px;
+    font-family: Roboto, sans-serif;
+}
+
+@keyframes slide{
+    from{
+        translate: 40vh 0;
+        scale: 50% 0.4;
+    }
+}
+
+table{
+    box-shadow: 5px 5px 5px rgb(0, 255, 200);
+}
+
+#celltype1{
+    background-color: green;
+}
+
+#celltype2{
+    background-color: white;
+    cursor: pointer;
+}
+
+#celltype3{
+    background-color: brown;
+    color: white;
+}
+
+#celltype4{
+    background-color: chocolate;
+    color: white;
+    cursor: pointer;
+}
+
+.img2{
+    width: 50px;
+    height: 50px;
+    position: absolute;
+}
+
+.codinglab{
+    font-size: 40px;
+    font-family: Roboto, sans-serif;
+}
+
+
+
+.p1{
+    color: white;
+    font-size: 22px;
+}
+
+.email{
+    font-size: 25px;
+    color: white;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 7px;
+    background-color: rgb(0, 0, 92);
+    border-color: white;
+}
+
+button{
+    font-size: 25px;
+    color: blue;
+    padding: 8px;
+    width: 68%;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(209, 209, 209);
+    color: rgb(0, 0, 92);
+}
+
+.p2{
+    color: white;
+    font-size: 20px;
+    margin-left: 30px;
+}
