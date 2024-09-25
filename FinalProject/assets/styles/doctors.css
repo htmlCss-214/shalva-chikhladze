@@ -1,0 +1,109 @@
+.doctors-description {
+    display: flex;
+    flex-wrap: nowrap;
+    /* background-color: yellow; */
+    height: 700px;
+}
+
+.doctors-description > div {
+    background-color: #f1f1f1;
+    width: 100%;
+    margin: 10px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 30px;
+    box-shadow: 5px 5px 20px red;
+  }
+
+  .doctors-img img{
+    width: 100%;
+  }
+
+.doctors-description .doctors-txt a{
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 700;   
+    color: rgba(27, 199, 104, 1);
+    text-decoration: none;
+}
+
+.doctors-description .doctors-morbi p{
+    font-size: 16px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 24px;
+    margin-top: 25px;
+}
+
+.doctors-description .doctors-focus p {
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 400;
+    color: rgba(115, 115, 115, 1);
+    line-height: 20px;
+    margin-top: 20px;
+}
+
+.doctors-description .doctors-btn button{
+    background-color: rgba(38, 51, 93, 1);
+    width: 90%;
+    height: 50px;
+    border-radius: 20px;
+    margin-top: 25px;
+    border: 2px solid red;
+}
+
+.doctors-description .doctors-btn i {
+    position: absolute;
+    top: 730px;
+    transform: translateX(-120%);
+    font-size: 64px;
+    color: red;
+}
+
+.doctors-description .doctors-btn button a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 14px;
+    font-family: Montserrat;
+    font-weight: 700;
+    line-height: 24px;
+    letter-spacing: 1px;
+}
+
+
+@media (max-width: 430px) {
+    .section__care {
+        width: 100%;
+        height: 100%;
+    }
+
+    .doctors-description {
+        display: block;
+        height: 100%;
+        padding: 0 40px;
+        margin-right: 30px;
+    }
+}
+
+
+@media (max-width: 820px) {
+    .section__care {
+        width: 800px;
+        height: 100%;
+    }
+
+    .doctors-container {
+        position: relative;
+        left: 1px;
+    }
+
+    .doctors-btn i {
+        display: none;
+    }
+
+    .doctors-description > div {
+        box-shadow: none;
+        margin: 4px;
+    }
+}
